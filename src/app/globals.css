@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../public/fonts/satoshi/TTF/Satoshi-Variable.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: Satoshi, sans-serif, Arial, Helvetica;
+  color: white;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+.active-card-border {
+  border-image: linear-gradient(to right, #f76680 0%, #57007b 100%) 1;
+  border-radius: 50px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.button__bar li.slick-active button {
+  opacity: 0.75;
+  color: #f76680;
+}
