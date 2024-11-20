@@ -18,7 +18,7 @@ export default function SoftwareReview({
       <div className="flex items-center gap-2">
         <Icons.VerticalLine />
         <span className="text-base text-left lg:w-96 lg:text-wrap bg-gradient-to-r from-[#f76680]  to-[#57007b] inline-block text-transparent bg-red-200 bg-clip-text font-light leading-relaxed">
-          "{review}"
+          {review}
         </span>
       </div>
       <div className="flex flex-row items-center gap-2 md:gap-4">

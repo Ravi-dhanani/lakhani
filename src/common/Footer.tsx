@@ -76,9 +76,9 @@ export default function Footer() {
             <div className="flex justify-center items-center bg-white h-12 w-12 p-2 rounded-full drop-shadow-[0px_-1px_7px_rgba(0,0,0,0.25)] cursor-pointer">
               <Icons.instagram {...iconClass} />
             </div>
-            <div className="flex justify-center items-center bg-white h-12 w-12 p-2 rounded-full drop-shadow-[0px_-1px_7px_rgba(0,0,0,0.25)] cursor-pointer">
+            {/* <div className="flex justify-center items-center bg-white h-12 w-12 p-2 rounded-full drop-shadow-[0px_-1px_7px_rgba(0,0,0,0.25)] cursor-pointer">
               <Icons.twitter {...iconClass} />
-            </div>
+            </div> */}
             <div className="flex justify-center items-center bg-white h-12 w-12 p-2 rounded-full drop-shadow-[0px_-1px_7px_rgba(0,0,0,0.25)] cursor-pointer">
               <Icons.linkedin {...iconClass} />
             </div>
